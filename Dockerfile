@@ -1,5 +1,5 @@
 FROM php:7.1-alpine
-MAINTAINER Tejas Mehta <tejas.m.mehta@gmail.com>
+LABEL maintainer="Tejas Mehta <tejas.m.mehta@gmail.com>"
 
 RUN apk --update add git \
   build-base \
